@@ -1,1 +1,1 @@
-sudo docker run -it --name detector  detector:v1.0 /bin/bash
+sudo docker run -it -d --name yolox -p 8080:8080 yolox:test

@@ -11,9 +11,9 @@ bash build_docker.sh
 bash first_run.sh
 ```
 
-### run
+### into
 ```
-bash run.sh
+bash shell.sh
 ```
 
 test
