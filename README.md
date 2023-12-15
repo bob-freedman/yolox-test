@@ -11,12 +11,12 @@ bash build_docker.sh
 bash first_run.sh
 ```
 
-### into
+### into shell
 ```
 bash shell.sh
 ```
 
 test
 ```
-bash test.sh
+bash test.sh YOLOX/assets/dog.jpg
 ```
