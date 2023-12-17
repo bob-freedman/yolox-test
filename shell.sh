@@ -1,1 +1,1 @@
-sudo docker run exec -it yolox:test /bin/bash
+sudo docker run -it yolox:test /bin/bash
