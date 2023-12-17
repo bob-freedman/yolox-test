@@ -1,3 +1,6 @@
+ARG DEBIAN_FRONTEND=noninteractive
+ENV TZ=Asia/Shanghai
+
 FROM pytorch/pytorch:latest
   
 ADD . /
