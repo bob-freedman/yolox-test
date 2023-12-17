@@ -1,8 +1,5 @@
-ARG DEBIAN_FRONTEND=noninteractive
-ENV TZ=Asia/Shanghai
-
 FROM pytorch/pytorch:latest
-  
+ENV TZ=Asia/Shanghai  
 ADD . /
 
 WORKDIR /
