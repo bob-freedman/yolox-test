@@ -71,6 +71,7 @@ class Predictor(object):
         if isinstance(img, str):
             img_info["file_name"] = os.path.basename(img)
             img = cv2.imread(img)
+            img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
             print(type(img))
         else:
             img_info["file_name"] = None
@@ -141,7 +142,7 @@ def main(exp,args,path):
     args.device = "cpu"
     args.conf = 0.25
     args.nms = 0.45
-    args.tsize = 640
+    args.tsize = 12800
     args.fp16 = False
     args.legacy = False
     args.fuse = False
