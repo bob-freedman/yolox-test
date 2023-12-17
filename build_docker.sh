@@ -1,1 +1,1 @@
-sudo docker build -t detector:v1.0 .
+sudo docker build -t yolox:test .
