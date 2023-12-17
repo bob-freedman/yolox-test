@@ -3,7 +3,7 @@ FROM pytorch/pytorch:latest
 ADD . /
 
 WORKDIR /
-RUN cp sources.list /etc/apt/sources.list
+RUN cp ./sources.list /etc/apt/sources.list
  
 WORKDIR /YOLOX
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
