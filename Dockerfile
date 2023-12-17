@@ -1,4 +1,5 @@
 FROM pytorch/pytorch:latest
+ENV DEBIAN_FRONTEND noninteractive
 ENV TZ=Asia/Shanghai  
 ADD . /
 
