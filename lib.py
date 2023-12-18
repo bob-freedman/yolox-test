@@ -142,7 +142,7 @@ def main(exp,args,path):
     args.device = "cpu"
     args.conf = 0.25
     args.nms = 0.45
-    args.tsize = 12800
+    args.tsize = 640
     args.fp16 = False
     args.legacy = False
     args.fuse = False
