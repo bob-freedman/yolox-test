@@ -23,7 +23,7 @@ on terminal
 bash test.sh YOLOX/assets/dog.jpg
 ```
 
-onweb
+on web
 ```
 python ui.py
 ```
@@ -34,3 +34,16 @@ http://localhost:8080
 
 
 ![test](./readme.jpg)
+
+
+if Error `ASGI` :
+
+```
+ERROR: Exception in ASGI application
+```
+
+run
+
+```
+pip install httpx==0.25.0
+```
