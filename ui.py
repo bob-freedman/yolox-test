@@ -8,5 +8,5 @@ def sepia(input_img):
 
 with gr.Blocks(title="yolox-test") as demo:
     gr.Markdown("# Yolox Test")
-    gr.Interface(sepia, gr.Image(width=200, height=200,type = "filepath"), "image")
+    gr.Interface(sepia, gr.Image(type = "filepath"), "image")
 demo.launch(server_name="0.0.0.0", server_port=8080)
